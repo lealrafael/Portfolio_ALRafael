@@ -1,0 +1,60 @@
+header {
+    background-color: #7C5E99;
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+h1{
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    color: #CBE896;
+    text-shadow: 5px 5px 0px #000;
+    margin-right: 700px; /*estou jogando o logo do nome para a esquerda*/
+    font-size: 40px;
+}
+nav{
+    text-align: right;
+}
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif; /*se eu não tenho a fonte escolhida eu baixo do fonts.google.com*/
+    font-weight: 500;
+    text-decoration: none; /*tirar tracinho debaixo da fonte que já vem como padrão*/
+    margin-right: 30px; /*respiro externo -> estou empurrando o elemento do meu lado*/  
+}
+a::before{
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+#button{ /*sempre que trabalhar com ID, eu uso #*/
+    display: inline-block; /* por padrão inline não deixa definir altura e largura, por isso muda para inline-block*/
+    background-color: #F25A70;
+    line-height: 40px; /*altero a linha no sentido vertical para centralizar e a altura precisa ser do mesmo tamanho da caixa*/
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000000; /*se eu colocar valor negativo a sombra vai subir no eixo Y -> eixo X,Y e blur*/
+    margin-right: 0;
+    transition: transform 100ms cubic-bezier(.1,.28,1,2.54);
+}
+#button:hover{
+    transform: scale(1.09);
+}
+/*
+h1{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    box-shadow: 5px 5px 0px #000000; 
+    line-height: 60px;
+    background-color: aqua;
+    margin-left: 5px 5px;    
+    font-size: 10px;
+    padding-left: 30px;
+} */
