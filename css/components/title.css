@@ -1,13 +1,7 @@
 h1{
-    display: inline-block;
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     color: #F25A70;
     text-shadow: 4px 4px 0px #000;
-    font-size: 40px;
-    background-color: #828282;
-    width: 667px;
-    height: 184px;
-    margin-top: 28px;
-    margin-left: 43px;
-    box-shadow: 10px 10px 0px #000;
+    font-size: 35px;
+    text-align: inherit;
 }
