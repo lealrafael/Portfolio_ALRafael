@@ -1,0 +1,17 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+     /*se eu não tenho a fonte escolhida eu baixo do fonts.google.com*/
+    font-weight: 500;
+    text-decoration: none; /*tirar tracinho debaixo da fonte que já vem como padrão*/
+    margin-right: 30px; /*respiro externo -> estou empurrando o elemento do meu lado*/  
+}
+.action::before{
+    content: "";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
