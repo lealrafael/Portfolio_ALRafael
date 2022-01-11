@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom: 10px solid #000; 
+    box-sizing: border-box;
 }
 
 .banner .wrapper{
