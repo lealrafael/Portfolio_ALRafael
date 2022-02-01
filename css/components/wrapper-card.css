@@ -1,6 +1,5 @@
-.main-card{
+.wrapper-card{
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
