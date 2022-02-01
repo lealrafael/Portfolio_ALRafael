@@ -3,14 +3,22 @@
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: #fff;  
+    align-items: center;
 }
 
 .main-skill .icon{
-    margin-right: 25px; 
+    margin-right: 25px;
+    width: 90px; 
 }
 
 .main-skill .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-bottom: 10px;
 }
+
+.main-skill .title{
+    margin-bottom: 7px;
+}
+
