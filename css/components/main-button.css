@@ -1,4 +1,4 @@
-.button{ /*sempre que trabalhar com ID, eu uso #*/
+.main-button{ /*sempre que trabalhar com ID, eu uso #*/
     display: inline-block; /* por padrão inline não deixa definir altura e largura, por isso muda para inline-block*/
     background-color: #F25A70;
     padding: 18px 20px;
@@ -9,6 +9,6 @@
     color: #fff;
     text-decoration: none;
 }
-.button:hover{
+.main-button:hover{
     transform: scale(1.09);
 }
