@@ -1,0 +1,54 @@
+.main-timeline{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.main-timeline::after{
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    display: block;
+    height: 4px;
+    width: calc(100% - 100px);
+    background-color: #000;
+}
+
+.main-timeline .mainbutton-arrow{
+    position: absolute;
+    bottom: 75px;
+    transform: translateY(50%);
+}
+
+.main-timeline .mainbutton-arrow.-left{
+    left: 15px;
+}
+
+.main-timeline .mainbutton-arrow.-right{
+    right: 15px;
+}
+
+.main-timeline::before{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    display: block;
+    border: 2px dashed #000;
+    width: 100%;
+}
+
+.main-timeline .items{
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-timeline .elements{
+    display: flex;
+    justify-content: space-between;
+    transition: transform 100ms ease-in-out;
+}
