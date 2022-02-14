@@ -12,5 +12,10 @@
 .main-section.-second{
       background-color: #000;
       align-content: center;
-      border-bottom: 10px solid #F25A70;         
+      border-bottom: 10px solid #F25A70;       
+}
+
+.main-section.-third{
+      background-color: #7C5E99;
+      border-bottom: 10px solid #000;
 }
