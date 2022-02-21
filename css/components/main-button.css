@@ -8,6 +8,7 @@
     font-size: 20px;
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 .main-button:hover{
     transform: scale(1.09);
@@ -15,4 +16,8 @@
 
 .main-button.-buttonsend{
     width: 100%;
+}
+
+.main-button.-buttonsend:hover{
+    transform: scale(1.01);
 }
