@@ -4,11 +4,16 @@
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000; /*se eu colocar valor negativo a sombra vai subir no eixo Y -> eixo X,Y e blur*/
     margin-right: 0;
-    transition: transform 100ms cubic-bezier(.1,.28,1,2.54);
+    transition: transform 100ms (.1,.28,1,2.54);
     font-size: 20px;
     color: #fff;
     text-decoration: none;
 }
 .main-button:hover{
     transform: scale(1.09);
+}
+
+.main-button.-buttonsend{
+    width: 100%;
+    margin-top: 50px;
 }
